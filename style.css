@@ -1,9 +1,19 @@
+body{
+    background: lightgoldenrodyellow;
+}
 .container{
-    display: block;
-    background: lightblue;
-    border: solid darkblue 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    background: lightcyan;
+    border: solid black 2px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 }
 
+img{
+    max-width: 500px;
+    max-height: 500px;
+}
