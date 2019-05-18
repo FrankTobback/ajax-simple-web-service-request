@@ -1,9 +1,9 @@
-body{
-    background-color: lightgray;
-}
-
-img{
-    max-width: 350px;
-    max-height: 350px;
+.container{
+    display: block;
+    background: lightblue;
+    border: solid darkblue 2px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
 }
 
